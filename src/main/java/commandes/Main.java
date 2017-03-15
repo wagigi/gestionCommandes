@@ -1,6 +1,7 @@
-package main;
+package commandes;
 
-import services.GestionCommande;
+import commandes.services.GestionCommande;
+
 
 public class Main {
 

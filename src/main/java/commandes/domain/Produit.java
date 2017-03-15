@@ -1,7 +1,10 @@
-package domain;
+package commandes.domain;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Produit {
 	
+	@JsonIgnore
 	Commande commande;
 	int typeProduit;
 
