@@ -13,5 +13,7 @@ Importer le projet dans Eclipse pour pouvoir éditer le code : File -> Import -> 
 Lancer le Web Services : le main Java se trouve dans src/main/java/commandes/GestionCommandesApplications. Lancer en tant qu'application Java.
 
 Utiliser un navigateur avec un plugin (postman ou rest client) pour tester le web service :
+
 	- Envoyer un HTTP POST sur l'URL http://localhost:8080/commandes contenant du json pour ajouter une commande :  {"typeProduit": 1, "nombreProduits":3}  Ne pas oublier de préciser dans le header http content-type: application/json.
+	
 	- Envoyer un HTTP GET sur l'URL http://localhost:8080/commandes ayant comme header http content-type: application/json pour récupérer la liste des commandes.
