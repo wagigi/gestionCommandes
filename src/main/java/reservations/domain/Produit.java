@@ -1,4 +1,4 @@
-package commandes.domain;
+package reservations.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

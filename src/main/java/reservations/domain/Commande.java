@@ -1,4 +1,4 @@
-package commandes.domain;
+package reservations.domain;
 
 import java.util.ArrayList;
 

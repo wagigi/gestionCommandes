@@ -1,12 +1,12 @@
-package commandes;
+package reservations;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GestionCommandesApplication {
+public class GestionReservationsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GestionCommandesApplication.class, args);
+		SpringApplication.run(GestionReservationsApplication.class, args);
 	}
 }

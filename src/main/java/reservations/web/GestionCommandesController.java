@@ -1,4 +1,4 @@
-package commandes.web;
+package reservations.web;
 
 import java.util.List;
 
@@ -10,21 +10,21 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import commandes.services.GestionCommande;
-import commandes.domain.Commande;
+import reservations.services.GestionCommande;
+import reservations.domain.Commande;
 
 @Controller
 public class GestionCommandesController {
 	
 	GestionCommande gestionCommande = new GestionCommande();
 	
-	@RequestMapping(value="/commandes", method=RequestMethod.POST)
+	@RequestMapping(value= "/reservations", method=RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)
 	public void creerCommande(@RequestBody UneCommande uneCommande){
 		gestionCommande.creerCommande(uneCommande.getTypeProduit(), uneCommande.getNombreProduits());
 	}
 	
-	@RequestMapping(value="/commandes", method=RequestMethod.GET)
+	@RequestMapping(value= "/reservations", method=RequestMethod.GET)
 	@ResponseBody
 	@ResponseStatus(HttpStatus.OK)
 	public List<Commande> listerCommandes(){		

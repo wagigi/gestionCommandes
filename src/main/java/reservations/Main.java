@@ -1,6 +1,6 @@
-package commandes;
+package reservations;
 
-import commandes.services.GestionCommande;
+import reservations.services.GestionCommande;
 
 
 public class Main {

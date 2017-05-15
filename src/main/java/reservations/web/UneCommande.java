@@ -1,4 +1,4 @@
-package commandes.web;
+package reservations.web;
 
 public class UneCommande {
 	

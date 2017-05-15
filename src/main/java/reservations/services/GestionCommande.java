@@ -1,10 +1,10 @@
-package commandes.services;
+package reservations.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import commandes.domain.Produit;
-import commandes.domain.Commande;
+import reservations.domain.Produit;
+import reservations.domain.Commande;
 
 public class GestionCommande {
 	
